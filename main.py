@@ -30,7 +30,7 @@ class App(customtkinter.CTk):
         input_text = self.text_box.get("1.0", tk.END)
         time.sleep(4)
         
-        pyautogui.typewrite(input_text,1.0/40)
+        pyautogui.typewrite(input_text,1/100)
         # You can replace this with your desired typing logic
         # Here, we simulate typing the text using pyautogui
         # pyautogui.typewrite(input_text)
